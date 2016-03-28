@@ -42,6 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlankT4Template.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BlankT4Template.tt</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -49,6 +54,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BlankT4Template.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>BlankT4Template.cs</LastGenOutput>
+    </Content>
     <Content Include="TextTemplate1.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>TextTemplate1.txt</LastGenOutput>
