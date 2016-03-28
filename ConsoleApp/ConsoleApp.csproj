@@ -59,6 +59,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SimpleT4Template.tt</DependentUpon>
     </Compile>
+    <Compile Include="TextTemplate.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TextTemplate.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -78,12 +83,7 @@
     </Content>
     <Content Include="TextTemplate.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>TextTemplate.txt</LastGenOutput>
-    </Content>
-    <Content Include="TextTemplate.txt">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>TextTemplate.tt</DependentUpon>
+      <LastGenOutput>TextTemplate.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>
