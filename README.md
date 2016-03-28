@@ -1,0 +1,7 @@
+# T4Test
+TextTemplate是VS2015添加新建项自动生成的
+
+以下三个，是由使用tangible T4 Editor新建时生成的
+BlankT4Template
+SimpleT4Template
+AdvancedT4Template
