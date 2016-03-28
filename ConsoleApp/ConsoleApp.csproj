@@ -76,14 +76,14 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>SimpleT4Template.cs</LastGenOutput>
     </Content>
-    <Content Include="TextTemplate1.tt">
+    <Content Include="TextTemplate.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>TextTemplate1.txt</LastGenOutput>
+      <LastGenOutput>TextTemplate.txt</LastGenOutput>
     </Content>
-    <Content Include="TextTemplate1.txt">
+    <Content Include="TextTemplate.txt">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>TextTemplate1.tt</DependentUpon>
+      <DependentUpon>TextTemplate.tt</DependentUpon>
     </Content>
   </ItemGroup>
   <ItemGroup>
